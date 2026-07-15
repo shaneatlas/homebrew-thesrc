@@ -8,8 +8,8 @@ class ThesrcMcp < Formula
 
   desc "MCP connector for The Source - thin client for api.thesrc.ai"
   homepage "https://thesrc.ai"
-  url "https://files.pythonhosted.org/packages/source/t/thesrc-mcp/thesrc_mcp-0.4.0.tar.gz"
-  sha256 "9a0561a564f7ca34b641cd2ddba7195c25145d23012dfc1046b84f6d4fe9940f"
+  url "https://files.pythonhosted.org/packages/2b/a3/01e342597e2ecb0dff564f635ed983509acac2ff2dd7128b484699aa398c/thesrc_mcp-0.4.1.tar.gz"
+  sha256 "5cbf06160b17ec22fdb639a54ad415a393986b87a65ff8ec1e773921c5c3f505"
   license "MIT"
 
   depends_on "python@3.13"
