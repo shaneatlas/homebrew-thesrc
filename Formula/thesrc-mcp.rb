@@ -3,16 +3,13 @@
 # decision pending); this formula ships only the MCP connector, which is a
 # zero-business-logic shim over https://api.thesrc.ai.
 #
-# ACTIVATION: requires thesrc-mcp on PyPI (the-source PR "Leg B" + publish tag).
-# After first publish, fill sha256:
-#   curl -sL https://files.pythonhosted.org/packages/source/t/thesrc-mcp/thesrc_mcp-0.4.0.tar.gz | shasum -a 256
 class ThesrcMcp < Formula
   include Language::Python::Virtualenv
 
   desc "MCP connector for The Source - thin client for api.thesrc.ai"
   homepage "https://thesrc.ai"
   url "https://files.pythonhosted.org/packages/source/t/thesrc-mcp/thesrc_mcp-0.4.0.tar.gz"
-  sha256 "REPLACE_AFTER_FIRST_PYPI_PUBLISH"
+  sha256 "9a0561a564f7ca34b641cd2ddba7195c25145d23012dfc1046b84f6d4fe9940f"
   license "MIT"
 
   depends_on "python@3.13"
